@@ -29,8 +29,8 @@
 
 
 # Alunos grupo 8
-- Francisco Leonardo Oliveira Maia - 22253520
-- Isabela Brito - 22253713
-- Luis Gustavo Neves Ferreira - 22250561
-- Polyana Correia Rocha Camargo - 22253436
-- Rafael Braga - 22253115
+    - Francisco Leonardo Oliveira Maia - 22253520
+    - Isabela Brito - 22253713
+    - Luis Gustavo Neves Ferreira - 22250561
+    - Polyana Correia Rocha Camargo - 22253436
+    - Rafael Braga - 22253115
