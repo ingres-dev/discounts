@@ -1,10 +1,13 @@
 package com.example.order;
 
 import java.time.LocalDate;
+import java.time.Year;
 
 public class PromoService {
-    private LocalDate promoStart = localDate.of( 12, 1);
-    private LocalDate promoEnd = localDate.of( 12, 31);
+    LocalDate today = LocalDate.now();
+    int Year = today.getYear();
+    private LocalDate promoStart = LocalDate.of(Year, 12, 1);
+    private LocalDate promoEnd = LocalDate.of(Year, 12, 31);
 
     public LocalDate getPromoStart() {
         return promoStart;

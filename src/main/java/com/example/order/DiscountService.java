@@ -27,6 +27,7 @@ public class DiscountService {
 
         // Verificação de data promocional
         LocalDate today = LocalDate.now();
+        int Year = today.getYear();
 
         aplicaDescontoDataPromocional(order, today);
 
