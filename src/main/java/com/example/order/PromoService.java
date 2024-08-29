@@ -3,8 +3,8 @@ package com.example.order;
 import java.time.LocalDate;
 
 public class PromoService {
-    private LocalDate promoStart;
-    private LocalDate promoEnd;
+    private LocalDate promoStart = localDate.of( 12, 1);
+    private LocalDate promoEnd = localDate.of( 12, 31);
 
     public LocalDate getPromoStart() {
         return promoStart;
@@ -23,6 +23,11 @@ public class PromoService {
     }
 
     public boolean checkPromoPeriod(LocalDate today) {
-        return true;
+        if (!today.isBefore(promoStart) && !today.isAfter(promoEnd)){
+            return true;
+        }
+        else {
+            return true;
+        }
     }
 }
